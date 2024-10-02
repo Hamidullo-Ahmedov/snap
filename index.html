@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Snap</title>
 
   <!-- Normalize CSS -->
   <link rel="stylesheet" href="./styles/normalize.css">
@@ -20,35 +20,88 @@
 
   <header class="site-header">
     <div class="container">
-      <div class="header-wrapper">
+      <div class="site-header__wrapper">
         <a class="site-logo" href="./index.html">
-          <img class="logo-img"
-          width=""
-          height=""
-          src="" alt="">
+          <img class="site-logo__img"
+          width="83"
+          height="26"
+          src="./images/logo-min.svg" alt="site logo">
         </a>
         <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a href="#">
-
+          <ul class="navbar__list unstyled-list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">
+                Features
+              </a>
+              <ul class="dropdown dropdown__list unstyled-list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Todo List
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Calendar
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Reminders
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Planning
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">
+                Company
+              </a>
+              <ul class="dropdown-company dropdown-company__list unstyled-list">
+                <li class="dropdown-company__item">
+                  <a class="dropdown-company__link" href="#">
+                    History
+                  </a>
+                </li>
+                <li class="dropdown-company__item">
+                  <a class="dropdown-company__link" href="#">
+                    Our Team
+                  </a>
+                </li>
+                <li class="dropdown-company__item">
+                  <a class="dropdown-company__link" href="#">
+                    Blog
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">
+                Careers
               </a>
             </li>
-            <li class="navbar-item">
-              <a href="#">
-
-              </a>
-            </li>
-            <li class="navbar-item">
-              <a href="#">
-
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">
+                About
               </a>
             </li>
           </ul>
         </nav>
-        <a class="sign-up" href="#">
-
-        </a>
+        <ul class="login login__list unstyled-list">
+          <li class="login__item">
+            <a class="login__link" href="#">
+              Login
+            </a>
+          </li>
+          <li class="login__item"></li>
+            <a class="login__link register-link" href="#">
+              Register 
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </header>
@@ -63,8 +116,59 @@
 
     <section class="hero">
       <div class="container">
-        <div class="hero-wrapper">
-
+        <div class="hero__wrapper">
+          <div class="hero__content-wrapper">
+            <h1 class="hero__title">
+              Make <br> remote work
+            </h1>
+            <div class="hero__desc-wrapper">
+              <p class="hero__desc">
+                Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+                productivity soar.
+              </p>
+            </div>
+            <a class="hero__link" href="#">
+              Learn more
+            </a>
+            <ul class="companies companies__list unstyled-list">
+              <li class="companies__item">
+                <a href="#">
+                  <img src="./images/databiz-min.svg"
+                  width="113"
+                  height="20"
+                  alt="databiz link and image">
+                </a>
+              </li>
+              <li class="companies__item">
+                <a href="#">
+                  <img src="./images/audiophile-min.svg"
+                  width="73"
+                  height="36"
+                  alt="audiophile link and image">
+                </a>
+              </li>
+              <li class="companies__item">
+                <a href="#">
+                  <img src="./images/meet-min.svg"
+                  width="89"
+                  height="20"
+                  alt="meet link and image">
+                </a>
+              </li>
+              <li class="companies__item">
+                <a href="#">
+                  <img src="./images/maker-min.svg"
+                  width="82"
+                  height="24"
+                  alt="maker link and image">
+                </a>
+              </li>
+            </ul> 
+          </div>
+          <img src="./images/hero-img.png"
+          width="480"
+          height="640"
+          alt="hero image which shows a person with his laptop">
         </div>
       </div>
     </section>
